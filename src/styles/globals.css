@@ -1,0 +1,22 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+.full{
+  @apply w-full h-full;
+}
+
+.screen{
+  @apply w-screen h-screen;
+}
+
+.center{
+  @apply flex justify-center items-center;
+}
+
+.col {
+  @apply flex flex-col;
+}
+
+.click {
+  @apply cursor-pointer hover:scale-105 active:scale-95 transition-transform duration-150 hover:brightness-110 active:brightness-90;
+}

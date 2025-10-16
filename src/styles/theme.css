@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --color-neutral: #e2e2e2;
+  --color-primary: #ed9913;
+  --color-dark-black: #242424;
+  --color-light-black: #515151;
+
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: 'Oswald', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+h1{
+  font-size: 4rem;
+  color: #ed9913;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+main {
+  padding: 0rem;
+  margin: 0;
+}
