@@ -20,7 +20,7 @@ export default function MemberHero({ image, name, title }: Props) {
         aria-hidden="true"
       />
       {image && (
-     <div className="absolute left-1/2 bottom-7 transform -translate-x-1/2 z-20 flex flex-col items-center w-[85%] max-w-[300px] sm:w-auto"
+     <div className="absolute left-1/2 bottom-0 transform -translate-x-1/2 z-20 flex flex-col items-center w-[85%] max-w-[300px] sm:w-auto"
       >
           <Image
             src={image}
