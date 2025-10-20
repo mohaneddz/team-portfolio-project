@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const footerSvg = 'svgs/footer.svg';
+const footerSvg = '/svgs/footer.svg';
 
 export default function Footer() {
   return (
