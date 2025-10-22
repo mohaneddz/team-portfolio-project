@@ -19,13 +19,13 @@ const TeamCard = ({ name, role, image }: TeamCardProps) => {
   return (
     <div
       className={cn(
-        "cursor-pointer transition-all duration-300",
+        "cursor-pointer transition-all duration-300 overflow-hidden rounded-lg",
         isHovered && "scale-105"
       )}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      <Card className="overflow-visible rounded-lg shadow-lg bg-neutral-900 text-white transition-all duration-300 relative">
+      <Card className="overflow-hidden rounded-lg shadow-lg bg-transparent text-white transition-all duration-300 relative">
         {/* Fancy border on hover */}
         <div
           className={cn(
