@@ -36,15 +36,15 @@ export const teamMembers = [
 		},
 	},
 	{
-		name: 'Imene Nour El Houda Boudjira',
+		name: 'Imen Nour El Houda Boudjira',
 		title: 'Frontend Developer',
 		image: '/images/team/NOUR.avif',
 		about: 'Nour specializes in creating responsive and performant user interfaces. She focuses on modern frontend frameworks and ensuring exceptional user experiences through clean, maintainable code.',
-		expertise: ['React', 'Vue.js', 'CSS/Sass', 'Web Performance', 'Responsive Design'],
+		expertise: ['React','JavaScipt','Python','Java','Tailwind CSS', 'CSS', 'Web Performance', 'Responsive Design'],
 		social_links: {
-			github: 'https://github.com/placeholder',
-			linkedin: 'https://linkedin.com/in/placeholder',
-			twitter: 'https://twitter.com/placeholder'
+			github: 'https://github.com/NourImen-cloud',
+			linkedin: 'https://www.linkedin.com/in/imen-nour-el-houda-boudjira-87998138b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+		
 		},
 	},
 	{
