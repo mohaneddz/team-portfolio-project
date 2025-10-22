@@ -1,188 +1,74 @@
 export const teamMembers = [
 	{
-		name: 'MANAA Mohaned',
-		title: 'Team Leader',
+		name: 'Mohaned Manaa',
+		title: 'Team Lead',
 		image: '/images/team/Mohaned.avif',
-		about: 'Mohaned leads the team with a focus on delivery, mentorship and architectural decisions. He coordinates work across disciplines to keep projects on track.',
+		about: 'Mohaned leads the development team with a focus on architecture, mentorship, and delivering high-quality software. He coordinates technical decisions and ensures the team follows best practices while fostering a collaborative environment.',
+		expertise: ['Software Architecture', 'Team Leadership', 'DevOps', 'Technical Mentorship'],
 		social_links: {
 			github: 'https://github.com/placeholder',
 			linkedin: 'https://linkedin.com/in/placeholder',
 			twitter: 'https://twitter.com/placeholder'
 		},
-		projects: [
-			{
-				image: '/images/projects/DEFAULT.png',
-				title: 'Project Alpha',
-				description: 'A sample project placeholder for Mohaned demonstrating leadership and system design.',
-				link: '#'
-			},
-			{
-				image: '/images/projects/DEFAULT.png',
-				title: 'Project Beta',
-				description: 'An example product delivery highlighting coordination between teams.',
-				link: '#'
-			},
-			{
-				image: '/images/projects/DEFAULT.png',
-				title: 'Project Gamma',
-				description: 'A placeholder case study showing feature planning and roadmaps.',
-				link: '#'
-			}
-		]
 	},
 	{
 		name: 'Ibrahim Blaha',
-		title: 'Senior Developer',
+		title: 'Full Stack Developer',
 		image: '/images/team/Ibrahim.avif',
-		about: 'Passionate about coding and problem-solving, Ibrahim is our go-to person for tackling complex technical challenges. With a knack for clean code and efficient algorithms, he ensures our projects run smoothly and effectively.',
+		about: 'Passionate developer focused on building efficient, user-centered digital solutions. Experienced with modern web and AI technologies, blending creativity with technical precision.Always exploring new tools and ideas to turn innovation into impact.',
+		expertise: ['TypeScript', 'React', 'PostgreSQL', 'Next.js', 'Python'],
 		social_links: {
-			github: 'https://github.com/placeholder',
-			linkedin: 'https://linkedin.com/in/placeholder',
-			twitter: 'https://twitter.com/placeholder'
+			github: 'https://github.com/blahaibrahim',
+			linkedin: 'https://www.linkedin.com/in/ibrahim-blaha-312ab6328/',
+			twitter: '#'
 		},
-		projects: [
-			{
-				image: '/images/projects/DEFAULT.png',
-				title: 'Athlete Prediction',
-				description: 'A web app that predicts athlete performance using historical data, search algorithms and ML models.',
-				link: 'https://github.com/blahaibrahim/Predicting-Athlete-Performance'
-			},
-			{
-				image: '/images/projects/DEFAULT.png',
-				title: 'Unitt',
-				description: 'A reddit-like platform for university students to share resources, discuss topics, and connect with peers.',
-				link: 'https://github.com/blahaibrahim/Unitt'
-			},
-			{
-				image: '/images/projects/DEFAULT.png',
-				title: 'Taqwiya',
-				description: 'A mobile app that helps gym-goers track workouts and get proper rest by allowing them to read quran verses between sets.',
-				link: 'https://example.com'
-			}
-		]
 	},
 	{
 		name: 'Zineb Bouchaib',
-		title: 'UI/UX Designer',
+		title: 'Product Manager',
 		image: '/images/team/Zineb.avif',
-		about: 'Zineb designs intuitive and accessible interfaces, focusing on user research and visual consistency.',
+		about: 'Zineb bridges the gap between technical teams and business stakeholders. She defines product vision, prioritizes features, and ensures development efforts align with user needs and business goals.',
+		expertise: ['Product Strategy', 'Agile Methodologies', 'User Stories', 'Stakeholder Management'],
 		social_links: {
 			github: 'https://github.com/placeholder',
 			linkedin: 'https://linkedin.com/in/placeholder',
 			twitter: 'https://twitter.com/placeholder'
 		},
-		projects: [
-			{
-				image: '/images/projects/DEFAULT.png',
-				title: 'Design System',
-				description: 'A component-driven design system that improves consistency across products.',
-				link: '#'
-			},
-			{
-				image: '/images/projects/DEFAULT.png',
-				title: 'Onboarding Flow',
-				description: 'An onboarding experience designed to increase activation and retention.',
-				link: '#'
-			},
-			{
-				image: '/images/projects/DEFAULT.png',
-				title: 'Prototype Gallery',
-				description: 'High-fidelity prototypes showcasing interactions and micro-animations.',
-				link: '#'
-			}
-		]
 	},
 	{
-		name: 'Imene Boudjira',
-		title: 'Marketing Specialist',
-		image: '/images/team/Imene.avif',
-		about: 'Imene crafts growth strategies and communication plans that help our products reach the right audience.',
+		name: 'Imene Nour El Houda Boudjira',
+		title: 'Frontend Developer',
+		image: '/images/team/NOUR.avif',
+		about: 'Nour specializes in creating responsive and performant user interfaces. She focuses on modern frontend frameworks and ensuring exceptional user experiences through clean, maintainable code.',
+		expertise: ['React', 'Vue.js', 'CSS/Sass', 'Web Performance', 'Responsive Design'],
 		social_links: {
 			github: 'https://github.com/placeholder',
 			linkedin: 'https://linkedin.com/in/placeholder',
 			twitter: 'https://twitter.com/placeholder'
 		},
-		projects: [
-			{
-				image: '/images/projects/DEFAULT.png',
-				title: 'Campaign A',
-				description: 'A multi-channel campaign focused on user acquisition.',
-				link: '#'
-			},
-			{
-				image: '/images/projects/DEFAULT.png',
-				title: 'Content Strategy',
-				description: 'Strategic content pieces to drive SEO and engagement.',
-				link: '#'
-			},
-			{
-				image: '/images/projects/DEFAULT.png',
-				title: 'Partnerships',
-				description: 'Collaborations with complementary brands to expand reach.',
-				link: '#'
-			}
-		]
 	},
 	{
 		name: 'Besmala Daoudi',
-		title: 'Product Manager',
+		title: 'Backend Developer',
 		image: '/images/team/DEFAULT.avif',
-		about: 'Besmala defines product vision and prioritizes work to deliver customer value.',
+		about: 'Besmala builds scalable server-side applications and APIs. She focuses on database optimization, security best practices, and creating robust backend systems that power our applications.',
+		expertise: ['Node.js', 'Python', 'REST APIs', 'Database Design', 'Cloud Services'],
 		social_links: {
 			github: 'https://github.com/placeholder',
 			linkedin: 'https://linkedin.com/in/placeholder',
 			twitter: 'https://twitter.com/placeholder'
 		},
-		projects: [
-			{
-				image: '/images/projects/DEFAULT.png',
-				title: 'Roadmap Planning',
-				description: 'A cross-functional roadmap coordinating engineering and design.',
-				link: '#'
-			},
-			{
-				image: '/images/projects/DEFAULT.png',
-				title: 'User Research',
-				description: 'Qualitative research that informed prioritization and feature changes.',
-				link: '#'
-			},
-			{
-				image: '/images/projects/DEFAULT.png',
-				title: 'Metrics Dashboard',
-				description: 'A dashboard to track key product metrics and goals.',
-				link: '#'
-			}
-		]
 	},
 	{
 		name: 'Manel Ferrat',
-		title: 'QA Engineer',
+		title: 'UI/UX Designer',
 		image: '/images/team/Manel.avif',
-		about: 'Manel ensures product quality through automated and manual testing practices.',
+		about: 'Manel designs intuitive and visually appealing interfaces that enhance user experience. She combines user research with creative design to build products that are both beautiful and functional.',
+		expertise: ['Figma', 'Adobe XD', 'Design Systems', 'User Research', 'Prototyping'],
 		social_links: {
 			github: 'https://github.com/placeholder',
 			linkedin: 'https://linkedin.com/in/placeholder',
 			twitter: 'https://twitter.com/placeholder'
 		},
-		projects: [
-			{
-				image: '/images/projects/DEFAULT.png',
-				title: 'Test Automation',
-				description: 'A suite of automated tests that reduced regressions.',
-				link: '#'
-			},
-			{
-				image: '/images/projects/DEFAULT.png',
-				title: 'Performance Testing',
-				description: 'Load testing to validate application scalability.',
-				link: '#'
-			},
-			{
-				image: '/images/projects/DEFAULT.png',
-				title: 'Regression Suite',
-				description: 'Organized regression tests for rapid releases.',
-				link: '#'
-			}
-		]
 	},
 ];
