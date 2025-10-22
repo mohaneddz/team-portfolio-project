@@ -1,6 +1,6 @@
 export const teamMembers = [
 	{
-		name: 'MANAA Mohaned',
+		name: 'Mohaned Manaa',
 		title: 'Team Leader',
 		image: '/images/team/Mohaned.avif',
 		about: 'Mohaned leads the team with a focus on delivery, mentorship and architectural decisions. He coordinates work across disciplines to keep projects on track.',
@@ -33,9 +33,9 @@ export const teamMembers = [
 		},
 	},
 	{
-		name: 'Imene Boudjira',
+		name: 'Imene Nour El Houda Boudjira',
 		title: 'Marketing Specialist',
-		image: '/images/team/Imene.avif',
+		image: '/images/team/NOUR.avif',
 		about: 'Imene crafts growth strategies and communication plans that help our products reach the right audience.',
 		social_links: {
 			github: 'https://github.com/placeholder',

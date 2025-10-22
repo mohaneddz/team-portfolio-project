@@ -1,39 +1,7 @@
 import TeamCard from "@/components/TeamCard";
+import { teamMembers } from "@/data/team";
 
 const Team = () => {
-  const teamMembers = [
-    {
-      name: "Manel Ferrat",
-       role: "Senior Developer",
-      image: "/images/team/MANEL.avif",
-    },
-    {
-      name: "Manaa Mohaned",
-       role: "Senior Developer",
-      image: "/images/team/MOHANED.avif",
-    },
-    {
-      name: "Blaha Ibrahim ",
-      role: "Senior Developer",
-      image: "/images/team/IBRAHIM.avif",
-    },
-    {
-      name: "Boudjira Imen Nour El Houda",
-      role: "Senior Developer",
-      image: "/images/team/NOUR.avif",
-    },
-      {
-      name: "Bouchaib Zineb",
-       role: "Senior Developer",
-      image: "/images/team/ZINEB.avif",
-    },
-      {
-      name: "Douadi Besmala",
-       role: "Senior Developer",
-      image: "/images/team/DEFAULT.avif",
-    },
-  ];
-
   return (
     <div className="min-h-screen py-20" id="team">
 
@@ -50,7 +18,7 @@ const Team = () => {
             <TeamCard
               key={index}
               name={member.name}
-              role={member.role}
+              role={member.title}
               image={member.image}
             />
           ))}
