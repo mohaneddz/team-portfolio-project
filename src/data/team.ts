@@ -15,12 +15,12 @@ export const teamMembers = [
 		name: 'Ibrahim Blaha',
 		title: 'Full Stack Developer',
 		image: '/images/team/Ibrahim.avif',
-		about: 'Passionate about coding and problem-solving, Ibrahim excels at building end-to-end solutions. With expertise spanning frontend and backend technologies, he ensures seamless integration and robust application development.',
-		expertise: ['JavaScript', 'TypeScript', 'React', 'Node.js', 'PostgreSQL', 'Next.js'],
+		about: 'Passionate developer focused on building efficient, user-centered digital solutions. Experienced with modern web and AI technologies, blending creativity with technical precision.Always exploring new tools and ideas to turn innovation into impact.',
+		expertise: ['TypeScript', 'React', 'PostgreSQL', 'Next.js', 'Python'],
 		social_links: {
-			github: 'https://github.com/placeholder',
-			linkedin: 'https://linkedin.com/in/placeholder',
-			twitter: 'https://twitter.com/placeholder'
+			github: 'https://github.com/blahaibrahim',
+			linkedin: 'https://www.linkedin.com/in/ibrahim-blaha-312ab6328/',
+			twitter: '#'
 		},
 	},
 	{
