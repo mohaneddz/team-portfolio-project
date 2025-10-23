@@ -28,7 +28,7 @@ const Hero = ({ member }: Props) => {
               )}
               {member.social_links?.twitter && (
                 <a href={member.social_links.twitter} target="_blank" rel="noreferrer" className="underline">
-                  Twitter
+                  X
                 </a>
               )}
             </div>
@@ -64,7 +64,7 @@ const Hero = ({ member }: Props) => {
                 )}
                 {member.social_links?.twitter && (
                   <a href={member.social_links.twitter} target="_blank" rel="noreferrer" className="underline">
-                    Twitter
+                    X
                   </a>
                 )}
               </div>

@@ -4,15 +4,15 @@ import About from "@/sections/member/About";
 import Contact from "@/sections/Contact";
 
 interface Props {
-  params: { name: string };
+  params: Promise<{ name: string }>;
 }
 
 function slugify(name: string) {
   return name.toLowerCase().replace(/\s+/g, "-");
 }
 
-export default function page({ params }: Props) {
-  const { name } = params;
+export default async function page({ params }: Props) {
+  const { name } = await params;
 
   const member = teamMembers.find((m) => slugify(m.name) === name.toLowerCase());
 
