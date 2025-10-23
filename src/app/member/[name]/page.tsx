@@ -1,29 +1,37 @@
-import Image from "next/image";
-import MemberHero from "@/sections/member/MemberHero";
-import About from "@/sections/member/About";
-import Work from "@/sections/member/Work";
-import ReachOut from "@/sections/member/ReachOut";
 import { teamMembers } from "@/data/team";
-import Home from "@/app/page";
+import Hero from "@/sections/member/Hero";
+import About from "@/sections/member/About";
+import Contact from "@/sections/Contact";
 
 interface Props {
-  params: { name: string };
+  params: Promise<{ name: string }>;
 }
 
-export default function Page({ params }: Props) {
-  const decoded = decodeURIComponent(params.name);
-  const member = teamMembers.find((m) => m.name === decoded);
+function slugify(name: string) {
+  return name.toLowerCase().replace(/\s+/g, "-");
+}
+
+export default async function page({ params }: Props) {
+  const { name } = await params;
+
+  const member = teamMembers.find((m) => slugify(m.name) === name.toLowerCase());
 
   if (!member) {
-    return Home();
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="text-center">
+          <h1 className="text-3xl font-bold mb-2">Member not found</h1>
+          <p className="text-muted-foreground">We couldn't find a team member matching &ldquo;{name}&rdquo;.</p>
+        </div>
+      </div>
+    );
   }
 
   return (
-  <>
-    <MemberHero image={member.image} name={member.name} title={member.title} />
-    <About about={member.about} image={member.image} />
-    <Work projects={member.projects}/>
-    <ReachOut links={member.social_links} />
-  </>
+    <main>
+      <Hero member={member} />
+      <About member={member} />
+      <Contact />
+    </main>
   );
 }
