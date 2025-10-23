@@ -4,9 +4,9 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { useToast } from "@/hooks/use-toast";
 import { Mail, MapPin, Phone } from "lucide-react";
 import { useState } from "react";
+import { useToast } from "@/hooks/use-toast";
 
 const Contact = () => {
   const { toast } = useToast();
@@ -31,7 +31,7 @@ const Contact = () => {
         <div className="text-center mb-16">
           <h1 className="text-5xl font-bold mb-4">Contact Us</h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Get in touch with our team - we'd love to hear from you
+            Get in touch with our team - we&rsquo;d love to hear from you
           </p>
         </div>
 

@@ -21,7 +21,7 @@ export default async function page({ params }: Props) {
       <div className="min-h-screen flex items-center justify-center">
         <div className="text-center">
           <h1 className="text-3xl font-bold mb-2">Member not found</h1>
-          <p className="text-muted-foreground">We couldn't find a team member matching &ldquo;{name}&rdquo;.</p>
+          <p className="text-muted-foreground">We couldn&apos;t find a team member matching &ldquo;{name}&rdquo;.</p>
         </div>
       </div>
     );

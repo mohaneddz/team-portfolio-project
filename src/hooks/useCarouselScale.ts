@@ -7,24 +7,14 @@ import { teamMembers } from "@/data/team";
 export function useCarouselScale() {
 
   const [api, setApi] = React.useState<CarouselApi>();
-  const [current, setCurrent] = React.useState(0);
+  const [_, setCurrent] = React.useState(0);
   const [scaleValues, setScaleValues] = React.useState<number[]>(
     teamMembers.map((_, i) => (i === 0 ? 1 : 0.75))
   );
 
-  const calculateScale = React.useCallback((diffToTarget: number) => {
-    const absDiff = Math.abs(diffToTarget);
-    if (absDiff < 0.01) return 1; // Center item
-    if (absDiff < 1) return 0.85 - (absDiff * 0.1); // Adjacent items
-    return 0.75; // Further items
-  }, []);
-
   const onScroll = React.useCallback(() => {
     if (!api) return;
 
-    const scrollProgress = api.scrollProgress();
-    const slides = api.slideNodes();
-    const slidesInView = api.slidesInView();
     const selectedIndex = api.selectedScrollSnap();
 
     const newScaleValues = teamMembers.map((_, index) => {
@@ -53,7 +43,7 @@ export function useCarouselScale() {
 
     setScaleValues(newScaleValues);
     setCurrent(selectedIndex);
-  }, [api, calculateScale]);
+  }, [api]);
 
   const onSelect = React.useCallback(() => {
     if (!api) return;

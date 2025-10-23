@@ -19,7 +19,7 @@ const Home = () => {
               Building Excellence Together
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-8 leading-relaxed">
-              We're a passionate team dedicated to creating innovative solutions
+              We&rsquo;re a passionate team dedicated to creating innovative solutions
               and delivering exceptional results. Join us on our journey to excellence.
             </p>
             <div className="flex flex-wrap gap-4">
