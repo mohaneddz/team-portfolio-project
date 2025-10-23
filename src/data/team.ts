@@ -48,15 +48,15 @@ export const teamMembers = [
 		},
 	},
 	{
-		name: 'Besmala Daoudi',
-		title: 'Backend Developer',
-		image: '/images/team/DEFAULT.avif',
-		about: 'Besmala builds scalable server-side applications and APIs. She focuses on database optimization, security best practices, and creating robust backend systems that power our applications.',
-		expertise: ['Node.js', 'Python', 'REST APIs', 'Database Design', 'Cloud Services'],
+		name: 'Besmala Douadi',
+		title: 'Full Stack Developer',
+		image: '/images/team/BESMALA.jpg',
+		about: 'Third-year student at ENSIA, passionate about building innovative solutions. Eager to learn new technologies and collaborate on meaningful projects.',
+		expertise: ['JavaScript','HTML','CSS & Tailwind','Python','PHP','Git & GitHub','Figma', 'TypeScript','React','Node.js'],
 		social_links: {
-			github: 'https://github.com/placeholder',
-			linkedin: 'https://linkedin.com/in/placeholder',
-			twitter: 'https://twitter.com/placeholder'
+			github: 'https://github.com/besmala-devs',
+			linkedin: 'https://www.linkedin.com/in/besmala-devs-b2a24a362/',
+			twitter: ''
 		},
 	},
 	{
