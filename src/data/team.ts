@@ -4,11 +4,19 @@ export const teamMembers = [
 		title: 'Team Lead',
 		image: '/images/team/Mohaned.avif',
 		about: 'Mohaned leads the development team with a focus on architecture, mentorship, and delivering high-quality software. He coordinates technical decisions and ensures the team follows best practices while fostering a collaborative environment.',
-		expertise: ['Software Architecture', 'Team Leadership', 'DevOps', 'Technical Mentorship'],
+		expertise: [
+			'Leading',
+			'Software Architecture',
+			'Full-Stack Web development ',
+			'AI',
+			'DevOps',
+			'Design & Architectures',
+			'Content Creation',
+		],
 		social_links: {
-			github: 'https://github.com/placeholder',
-			linkedin: 'https://linkedin.com/in/placeholder',
-			twitter: 'https://twitter.com/placeholder'
+			github: 'https://github.com/mohaneddz',
+			linkedin: 'https://www.linkedin.com/in/mohaned-manaa-491483295/',
+			twitter: 'https://x.com/DzMohaned',
 		},
 	},
 	{
@@ -20,7 +28,7 @@ export const teamMembers = [
 		social_links: {
 			github: 'https://github.com/blahaibrahim',
 			linkedin: 'https://www.linkedin.com/in/ibrahim-blaha-312ab6328/',
-			twitter: '#'
+			twitter: '#',
 		},
 	},
 	{
@@ -32,7 +40,7 @@ export const teamMembers = [
 		social_links: {
 			github: 'https://github.com/zinabch',
 			linkedin: 'https://www.linkedin.com/in/zineb-bouchaib-700a072b0/',
-			twitter: 'https://twitter.com/placeholder'
+			twitter: 'https://twitter.com/placeholder',
 		},
 	},
 	{
@@ -40,11 +48,19 @@ export const teamMembers = [
 		title: 'Frontend Developer',
 		image: '/images/team/NOUR.avif',
 		about: 'Nour specializes in creating responsive and performant user interfaces. She focuses on modern frontend frameworks and ensuring exceptional user experiences through clean, maintainable code.',
-		expertise: ['React','JavaScipt','Python','Java','Tailwind CSS', 'CSS', 'Web Performance', 'Responsive Design'],
+		expertise: [
+			'React',
+			'JavaScipt',
+			'Python',
+			'Java',
+			'Tailwind CSS',
+			'CSS',
+			'Web Performance',
+			'Responsive Design',
+		],
 		social_links: {
 			github: 'https://github.com/NourImen-cloud',
 			linkedin: 'https://www.linkedin.com/in/imen-nour-el-houda-boudjira-87998138b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
-		
 		},
 	},
 	{
@@ -52,11 +68,22 @@ export const teamMembers = [
 		title: 'Full Stack Developer',
 		image: '/images/team/BESMALA.jpg',
 		about: 'Third-year student at ENSIA, passionate about building innovative solutions. Eager to learn new technologies and collaborate on meaningful projects.',
-		expertise: ['JavaScript','HTML','CSS & Tailwind','Python','PHP','Git & GitHub','Figma', 'TypeScript','React','Node.js'],
+		expertise: [
+			'JavaScript',
+			'HTML',
+			'CSS & Tailwind',
+			'Python',
+			'PHP',
+			'Git & GitHub',
+			'Figma',
+			'TypeScript',
+			'React',
+			'Node.js',
+		],
 		social_links: {
 			github: 'https://github.com/besmala-devs',
 			linkedin: 'https://www.linkedin.com/in/besmala-devs-b2a24a362/',
-			twitter: ''
+			twitter: '',
 		},
 	},
 	{
@@ -64,11 +91,10 @@ export const teamMembers = [
 		title: 'UI/UX Designer',
 		image: '/images/team/Manel.avif',
 		about: 'Manel designs intuitive and visually appealing interfaces that enhance user experience. She combines user research with creative design to build products that are both beautiful and functional.',
-		expertise: ['Figma', 'Adobe XD', 'Design Systems', 'User Research', 'Prototyping','photoshop'],
+		expertise: ['Figma', 'Adobe XD', 'Design Systems', 'User Research', 'Prototyping', 'photoshop'],
 		social_links: {
 			github: 'https://github.com/manel12323',
 			linkedin: 'www.linkedin.com/in/manel-ferrat',
-
 		},
 	},
 ];
