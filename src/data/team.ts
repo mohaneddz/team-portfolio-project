@@ -68,7 +68,7 @@ export const teamMembers = [
 		social_links: {
 			github: 'https://github.com/manel12323',
 			linkedin: 'www.linkedin.com/in/manel-ferrat',
-			twitter: 'https://twitter.com/placeholder'
+
 		},
 	},
 ];
