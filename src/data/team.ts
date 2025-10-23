@@ -64,10 +64,10 @@ export const teamMembers = [
 		title: 'UI/UX Designer',
 		image: '/images/team/Manel.avif',
 		about: 'Manel designs intuitive and visually appealing interfaces that enhance user experience. She combines user research with creative design to build products that are both beautiful and functional.',
-		expertise: ['Figma', 'Adobe XD', 'Design Systems', 'User Research', 'Prototyping','photoshop','TypeScript', 'React',],
+		expertise: ['Figma', 'Adobe XD', 'Design Systems', 'User Research', 'Prototyping','photoshop'],
 		social_links: {
 			github: 'https://github.com/manel12323',
-			linkedin: 'https://www.linkedin.com/in/manel-ferrat',
+			linkedin: 'www.linkedin.com/in/manel-ferrat',
 
 		},
 	},
