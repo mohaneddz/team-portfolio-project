@@ -28,10 +28,10 @@ export const teamMembers = [
 		title: 'Product Manager',
 		image: '/images/team/Zineb.avif',
 		about: 'Zineb bridges the gap between technical teams and business stakeholders. She defines product vision, prioritizes features, and ensures development efforts align with user needs and business goals.',
-		expertise: ['Product Strategy', 'Agile Methodologies', 'User Stories', 'Stakeholder Management'],
+		expertise: ['Python', 'JavaScript', 'Java', 'CSS', 'HTML', 'Figma', 'Aftre Effects', '3D Design'],
 		social_links: {
-			github: 'https://github.com/placeholder',
-			linkedin: 'https://linkedin.com/in/placeholder',
+			github: 'https://github.com/zinabch',
+			linkedin: 'https://www.linkedin.com/in/zineb-bouchaib-700a072b0/',
 			twitter: 'https://twitter.com/placeholder'
 		},
 	},
