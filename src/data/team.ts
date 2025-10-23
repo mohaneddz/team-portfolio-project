@@ -36,27 +36,27 @@ export const teamMembers = [
 		},
 	},
 	{
-		name: 'Imene Nour El Houda Boudjira',
+		name: 'Imen Nour El Houda Boudjira',
 		title: 'Frontend Developer',
 		image: '/images/team/NOUR.avif',
 		about: 'Nour specializes in creating responsive and performant user interfaces. She focuses on modern frontend frameworks and ensuring exceptional user experiences through clean, maintainable code.',
-		expertise: ['React', 'Vue.js', 'CSS/Sass', 'Web Performance', 'Responsive Design'],
+		expertise: ['React','JavaScipt','Python','Java','Tailwind CSS', 'CSS', 'Web Performance', 'Responsive Design'],
 		social_links: {
-			github: 'https://github.com/placeholder',
-			linkedin: 'https://linkedin.com/in/placeholder',
-			twitter: 'https://twitter.com/placeholder'
+			github: 'https://github.com/NourImen-cloud',
+			linkedin: 'https://www.linkedin.com/in/imen-nour-el-houda-boudjira-87998138b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+		
 		},
 	},
 	{
-		name: 'Besmala Daoudi',
-		title: 'Backend Developer',
-		image: '/images/team/DEFAULT.avif',
-		about: 'Besmala builds scalable server-side applications and APIs. She focuses on database optimization, security best practices, and creating robust backend systems that power our applications.',
-		expertise: ['Node.js', 'Python', 'REST APIs', 'Database Design', 'Cloud Services'],
+		name: 'Besmala Douadi',
+		title: 'Full Stack Developer',
+		image: '/images/team/BESMALA.jpg',
+		about: 'Third-year student at ENSIA, passionate about building innovative solutions. Eager to learn new technologies and collaborate on meaningful projects.',
+		expertise: ['JavaScript','HTML','CSS & Tailwind','Python','PHP','Git & GitHub','Figma', 'TypeScript','React','Node.js'],
 		social_links: {
-			github: 'https://github.com/placeholder',
-			linkedin: 'https://linkedin.com/in/placeholder',
-			twitter: 'https://twitter.com/placeholder'
+			github: 'https://github.com/besmala-devs',
+			linkedin: 'https://www.linkedin.com/in/besmala-devs-b2a24a362/',
+			twitter: ''
 		},
 	},
 	{
