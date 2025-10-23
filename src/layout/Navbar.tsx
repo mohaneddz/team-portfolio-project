@@ -9,12 +9,13 @@ const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const navItems = [
-    { name: "Home", path: "#home" },
-    { name: "Team", path: "#team" },
-    { name: "Statistics", path: "#statistics" },
-    { name: "Moreover", path: "#moreover" },
-    { name: "Contact Us", path: "#contact" },
+    { name: "Home", path: "/#home" },
+    { name: "Team", path: "/#team" },
+    { name: "Statistics", path: "/#statistics" },
+    { name: "Moreover", path: "/#moreover" },
+    { name: "Contact Us", path: "/#contact" },
   ];
+  
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-secondary/95 backdrop-blur-sm">
