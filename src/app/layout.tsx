@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Fusion Team",
-  description: "The Best SOFTWARE Development Team in ENSIA!",
+  description: "The Best Web Development Team in ENSIA!",
 };
 
 import Navbar from "@/layout/Navbar";
