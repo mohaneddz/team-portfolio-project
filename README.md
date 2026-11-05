@@ -1,4 +1,9 @@
+![Team Portfolio cover](screenshots/cover.avif)
+
 # Portfolio Link
+
+A six-member team portfolio showcasing individual profiles, collaboration, and a shared web project.
+
 [Website's link!](https://team-portfolio-project-one.vercel.app/)
 # Team Members
 - MANAA Mohaned (Team leader)
